@@ -1,16 +1,11 @@
 import * as React from "react";
-import { Link } from "gatsby";
+import  Layout from "../components/layout";
 
 const IndexPage = () => {
   return (
-    <main>
-      <h1>Hi, I'm building a fake Gatsby site as part of a tutorial!</h1>
-      <Link to = '/about'>About</Link>
-      <p>
-        What do I like to do? Lots of course but definitely enjoy building
-        websites.
-      </p>
-    </main>
+    <Layout pageTitle="Home page">
+      <p>I'm making this by following the Gatsby Tutorial.</p>
+    </Layout>
   );
 };
 

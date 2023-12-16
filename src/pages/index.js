@@ -1,5 +1,5 @@
 import * as React from "react";
-import  Layout from "../components/layout";
+import Layout from "../components/layout";
 
 const IndexPage = () => {
   return (
@@ -9,11 +9,6 @@ const IndexPage = () => {
   );
 };
 
-export const Head = () => (
-  <>
-    <title>Home Page</title>;
-    <meta name="description" content="This is a fake Gatsby site" />
-  </>
-);
+export const Head = () => <title>Home Page</title>;
 
 export default IndexPage;

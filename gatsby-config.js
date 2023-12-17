@@ -5,7 +5,7 @@ const { imageConfigDefault } = require("next/dist/shared/lib/image-config");
  */
 module.exports = {
   siteMetadata: {
-    title: `My Gatsby Site`,
+    title: `My Country Kenya`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"],
